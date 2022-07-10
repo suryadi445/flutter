@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            appBar: AppBar(title: Text('Flutter Demo')),
+            appBar: AppBar(title: Text('Flutter Row dan Column')),
             body: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
