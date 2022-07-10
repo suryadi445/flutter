@@ -16,21 +16,25 @@ class MyApp extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text("suryadi"),
-                  Text("suryadi"),
-                  Text("suryadi"),
-                  Text("suryadi"),
-                  Column(
-                    children: [
-                      Row(
-                        children: [
-                          Text("suryadi"),
-                          Text("suryadi"),
-                          Text("suryadi"),
-                        ],
-                      ),
-                    ],
-                  )
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      "Halaman Row dan Column di Flutter",
+                      style: TextStyle(fontSize: 20.0),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextButton(
+                        style: TextButton.styleFrom(
+                          backgroundColor: Color.fromARGB(255, 0, 132, 240),
+                        ),
+                        onPressed: () {},
+                        child: Text(
+                          "Go to Flutter container",
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        )),
+                  ),
                 ],
               ),
             )));
